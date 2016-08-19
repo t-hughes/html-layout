@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.wrapper {
+    width: 100%;
+    height: 14%;
+}
+.grey {
+    background: #cfcfcf;
+    padding: 10px;
+}
+.square {
+    background: #4A90E2;
+    height: 100px;
+    width: 100px;
+}
+.white {
+    background: #fff;
+    width: 100%;
+    height: 60%;
+    padding: 20px;
+    display: table;
+}
+.content {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 50px;
+}
+.blue {
+    background: #4A90E2;
+}
+.seafoam {
+    background: #50E3C2;
+}
+.puke {
+    background: #B8E986;
+}
+.yellow {
+    background: #e8e61e;
+}

@@ -1,0 +1,33 @@
+/*html, body needs to be set because it is the parent to wrapper and wrapper wont be able to be sized if it doesnt have something to refer to, in this case it is their parent*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.wrapper {
+    width: 33.33%;
+    height: 100%;
+    float: left;
+}
+.blue {
+    background: #4A90E2;
+}
+.seafoam {
+    background: #50E3C2;
+}
+.puke {
+    background: #B8E986;
+    height: 70%;
+}
+.cherry {
+    background: #D0021B;
+    height: 30%;
+    text-align: center;
+    color: #FFF;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}

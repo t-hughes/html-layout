@@ -1,0 +1,26 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: #EAEAEA;
+}
+header {
+    height: 100px;
+    background: #323233;
+}
+.wrapper {
+    width: 1100px;
+    margin: 0 auto;
+}
+.content {
+    height: calc(100vh - 150px);
+    background: #FFF;
+}
+
+/*this calc is taking 100% of the view height and subtracting the px# of the header + the px# of the footer*/
+
+footer {
+    height: 50px;
+    background: #111;
+}
